@@ -3,7 +3,7 @@ run = "npm start"
 entrypoint = "src/index.tsx"
 
 [nix]
-channel = "stable-22_11"
+channel = "stable-23_11"
 
 [env]
 XDG_CONFIG_HOME = "/home/runner/.config"
