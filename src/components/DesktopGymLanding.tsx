@@ -604,7 +604,7 @@ export default function DesktopGymLanding() {
 
       {/* Floating WhatsApp Button */}
       <WhatsAppButton 
-        phoneNumber="+6209260417050"
+        phoneNumber="+6282111701599"
         message="Halo! Saya tertarik dengan program di S⭐R⭐Y Fitness Center. Bisakah Anda memberikan informasi lebih lanjut tentang membership dan fasilitas yang tersedia?"
         tooltipText="Chat dengan kami di WhatsApp"
       />

@@ -97,7 +97,7 @@ interface WhatsAppButtonProps {
 }
 
 export const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
-  phoneNumber = '+6209260417050',
+  phoneNumber = '+6282111701599',
   message = 'Halo! Saya tertarik dengan program di S⭐R⭐Y Fitness Center. Bisakah Anda memberikan informasi lebih lanjut?',
   showTooltip = true,
   tooltipText = 'Chat dengan kami di WhatsApp'
