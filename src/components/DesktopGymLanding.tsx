@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useBreakpoint } from '../hooks/useWindowSize';
+import { WhatsAppButton } from './common';
 
 // Import local assets
 import {
@@ -600,6 +601,13 @@ export default function DesktopGymLanding() {
           </div>
         </div>
       </footer>
+
+      {/* Floating WhatsApp Button */}
+      <WhatsAppButton 
+        phoneNumber="+6209260417050"
+        message="Halo! Saya tertarik dengan program di Stamina Fitness Center. Bisakah Anda memberikan informasi lebih lanjut tentang membership dan fasilitas yang tersedia?"
+        tooltipText="Chat dengan kami di WhatsApp"
+      />
     </div>
   );
 }

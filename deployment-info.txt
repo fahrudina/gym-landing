@@ -1,0 +1,21 @@
+Replit Deployment Information
+============================
+Project: Stamina Fitness Center Landing Page
+Repository: https://github.com/fahrudina/gym-landing
+Build Status: Ready ✅
+Last Build: Tue Oct 14 14:05:30 WIB 2025
+
+Deployment Steps:
+1. Import from GitHub: https://github.com/fahrudina/gym-landing
+2. Run: npm install
+3. Run: npm run build
+4. Deploy as static site
+
+Features:
+- Indonesian translation
+- SEO optimized
+- Local assets (23 files)
+- Responsive design
+- React + TypeScript + Tailwind CSS
+
+Expected URL: https://gym-landing.yourusername.replit.app

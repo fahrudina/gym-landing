@@ -21,4 +21,5 @@ declare module 'react-icons/fa' {
   export const FaTwitter: ComponentType<IconProps>;
   export const FaInstagram: ComponentType<IconProps>;
   export const FaLinkedin: ComponentType<IconProps>;
+  export const FaWhatsapp: ComponentType<IconProps>;
 }
