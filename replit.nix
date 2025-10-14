@@ -1,13 +1,10 @@
-language = "nodejs"
-run = "npm start"
-
-[nix]
-channel = "stable-21_11"
-
-[env]
-XDG_CONFIG_HOME = "/home/runner/.config"
-PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin"
-npm_config_prefix = "/home/runner/$REPL_SLUG/.config/npm/node_global"
+{ pkgs }: {
+  deps = [
+    pkgs.nodejs-18_x
+    pkgs.nodePackages.npm
+    pkgs.nodePackages.yarn
+  ];
+}
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config"]
