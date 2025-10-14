@@ -1,10 +1,18 @@
 language = "nodejs"
 run = "npm start"
+modules = ["nodejs-20", "web", "bash"]
 
 [nix]
-channel = "stable-24_05"
+channel = "stable-25_05"
 
 [deployment]
 build = ["npm", "run", "build"]
 publicDir = "build"
 deploymentTarget = "static"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[agent]
+expertMode = true
