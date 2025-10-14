@@ -1,0 +1,10 @@
+language = "nodejs"
+run = "npm start"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+build = ["npm", "run", "build"]
+publicDir = "build"
+deploymentTarget = "static"
