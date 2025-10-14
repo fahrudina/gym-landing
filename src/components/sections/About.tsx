@@ -83,7 +83,7 @@ export const About: React.FC = () => {
               viewport={{ once: true }}
             >
               ABOUT<br />
-              <span style={{ color: '#4A5FBF' }}>STAMINA GYM<br />
+              <span style={{ color: '#4A5FBF' }}>S⭐R⭐Y GYM<br />
               FOR MAN & WOMAN</span>
             </AboutTitle>
             
@@ -94,7 +94,7 @@ export const About: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Stamina Gym Fitness Center provides premium training 
+              S⭐R⭐Y Gym Fitness Center provides premium training 
               and conditioning for members who want to improve and 
               transform their body with programs depend on the body 
               template of each person program and training!

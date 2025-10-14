@@ -149,10 +149,10 @@ export const Footer: React.FC = () => {
           <FooterSection>
             <Logo>
               <FaDumbbell />
-              <span>STAMINA FITNESS</span>
+              <span>S⭐R⭐Y FITNESS</span>
             </Logo>
             <FooterDescription>
-              Transform your body and mind with STAMINA FITNESS state-of-the-art facilities, 
+              Transform your body and mind with S⭐R⭐Y FITNESS state-of-the-art facilities, 
               expert trainers, and supportive community. Your fitness journey starts here.
             </FooterDescription>
             <SocialLinks>

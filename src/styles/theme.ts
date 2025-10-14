@@ -1,6 +1,6 @@
 export const theme = {
   colors: {
-    primary: '#4A5FBF', // Blue from the STAMINA FITNESS logo
+    primary: '#4A5FBF', // Blue from the S⭐R⭐Y FITNESS logo
     secondary: '#2D1B7A', // Darker purple/blue
     accent: '#FFD700', // Gold/yellow accent
     white: '#FFFFFF',

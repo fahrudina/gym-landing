@@ -135,7 +135,7 @@ const LogoContainer = styled.div`
   }
 `;
 
-const StaminaLogo = styled.div`
+const SraryLogo = styled.div`
   text-align: center;
   color: ${({ theme }) => theme.colors.white};
   
@@ -212,10 +212,10 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             <LogoContainer>
-              <StaminaLogo>
-                <div className="logo-main">STAMINA</div>
+              <SraryLogo>
+                <div className="logo-main">S⭐R⭐Y</div>
                 <div className="logo-sub">FITNESS CENTRE</div>
-              </StaminaLogo>
+              </SraryLogo>
             </LogoContainer>
           </HeroLogo>
         </HeroContent>

@@ -46,10 +46,10 @@ export default function DesktopGymLanding() {
           {/* Logo */}
           <div className="flex items-center">
             <div className="h-[60px] w-[60px] md:h-[78px] md:w-[78px] mr-2 md:mr-4">
-              <img alt="Logo Stamina Fitness Center - Gym Terbaik Jakarta" className="w-full h-full object-cover" src={gymLogo} />
+              <img alt="Logo S⭐R⭐Y Fitness Center - Gym Terbaik Jakarta" className="w-full h-full object-cover" src={gymLogo} />
             </div>
             <div className="font-monument text-primary text-[18px] md:text-[24px] leading-tight">
-              <div>STAMINA</div>
+              <div>S⭐R⭐Y</div>
               <div>FITNESS</div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function DesktopGymLanding() {
       {/* Hero Section */}
       <section className="relative h-[400px] md:h-[620px] mt-[73px]" role="main" aria-label="Hero section">
         <div className="absolute inset-0 bg-black/50">
-          <img alt="Interior Stamina Fitness Center - Gym Modern Jakarta dengan Peralatan Lengkap" className="w-full h-full object-cover" src={heroBackground} />
+          <img alt="Interior S⭐R⭐Y Fitness Center - Gym Modern Jakarta dengan Peralatan Lengkap" className="w-full h-full object-cover" src={heroBackground} />
           <div className="absolute inset-0 bg-black/50" />
         </div>
         
@@ -165,29 +165,29 @@ export default function DesktopGymLanding() {
           {/* Hero image/logo */}
           <div className="flex-1 flex justify-center">
             <div className="w-[200px] h-[200px] md:w-[400px] md:h-[400px]">
-              <img alt="Logo Besar Stamina Fitness Center Jakarta - Pusat Kebugaran Pria dan Wanita" className="w-full h-full object-contain" src={gymLogo} />
+              <img alt="Logo Besar S⭐R⭐Y Fitness Center Jakarta - Pusat Kebugaran Pria dan Wanita" className="w-full h-full object-contain" src={gymLogo} />
             </div>
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="bg-primary py-8 md:py-16 px-4 md:px-16" aria-label="Tentang Stamina Fitness Center">
+      <section className="bg-primary py-8 md:py-16 px-4 md:px-16" aria-label="Tentang S⭐R⭐Y Fitness Center">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex-1 mb-8 md:mb-0">
             <div className="text-center mb-8">
               <p className="font-poppins font-semibold text-white text-[18px] md:text-[24px] mb-2">Tentang</p>
               <h2 className="font-monument text-white text-[24px] md:text-[40px] tracking-[2px] md:tracking-[4px]">
-                STAMINA GYM UNTUK PRIA & WANITA
+                S⭐R⭐Y GYM UNTUK PRIA & WANITA
               </h2>
             </div>
             <p className="font-poppins font-bold text-accent text-[16px] md:text-[20px] leading-relaxed tracking-[1px] max-w-[644px] text-center md:text-left">
-              Stamina Gym Fitness Center menyediakan pelatihan dan conditioning yang tepat untuk member yang ingin memperbaiki dan mentransformasi tubuh mereka dengan Program yang disesuaikan dengan komposisi tubuh.
+              S⭐R⭐Y Gym Fitness Center menyediakan pelatihan dan conditioning yang tepat untuk member yang ingin memperbaiki dan mentransformasi tubuh mereka dengan Program yang disesuaikan dengan komposisi tubuh.
             </p>
           </div>
           
           <div className="w-full max-w-[300px] md:w-[381px] h-[200px] md:h-[573px] rounded-lg overflow-hidden md:ml-8">
-            <img alt="Fasilitas Interior Stamina Gym - Ruang Latihan Lengkap dengan Peralatan Modern" className="w-full h-full object-cover" src={gymInterior} />
+            <img alt="Fasilitas Interior S⭐R⭐Y Gym - Ruang Latihan Lengkap dengan Peralatan Modern" className="w-full h-full object-cover" src={gymInterior} />
           </div>
         </div>
 
@@ -479,7 +479,7 @@ export default function DesktopGymLanding() {
           <div className="flex flex-col md:flex-row">
             {/* Map */}
             <div className="w-full md:w-[390px] h-[250px] md:h-[532px] rounded-[20px] overflow-hidden mb-6 md:mb-0 md:mr-8">
-              <img alt="Peta Lokasi Stamina Fitness Center - General Martha Villamor Air Base Pasay City" className="w-full h-full object-cover" src={locationMap} />
+              <img alt="Peta Lokasi S⭐R⭐Y Fitness Center - General Martha Villamor Air Base Pasay City" className="w-full h-full object-cover" src={locationMap} />
             </div>
 
             {/* Contact Information */}
@@ -605,7 +605,7 @@ export default function DesktopGymLanding() {
       {/* Floating WhatsApp Button */}
       <WhatsAppButton 
         phoneNumber="+6209260417050"
-        message="Halo! Saya tertarik dengan program di Stamina Fitness Center. Bisakah Anda memberikan informasi lebih lanjut tentang membership dan fasilitas yang tersedia?"
+        message="Halo! Saya tertarik dengan program di S⭐R⭐Y Fitness Center. Bisakah Anda memberikan informasi lebih lanjut tentang membership dan fasilitas yang tersedia?"
         tooltipText="Chat dengan kami di WhatsApp"
       />
     </div>

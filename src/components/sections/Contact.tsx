@@ -131,7 +131,7 @@ const contactItems = [
   {
     icon: <FaEnvelope />,
     label: 'Email',
-    value: 'staminagym@gym.com',
+    value: 'srarygym@gym.com',
   },
   {
     icon: <FaPhone />,

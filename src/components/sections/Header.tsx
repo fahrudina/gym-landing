@@ -153,7 +153,7 @@ export const Header: React.FC = () => {
         <Nav>
           <Logo>
             <FaDumbbell />
-            <span className="brand-text">STAMINA FITNESS</span>
+            <span className="brand-text">S⭐R⭐Y FITNESS</span>
           </Logo>
 
           <NavLinks>
