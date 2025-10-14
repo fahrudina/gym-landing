@@ -2,7 +2,7 @@ language = "nodejs"
 run = "npm start"
 
 [nix]
-channel = "stable-23_11"
+channel = "stable-24_05"
 
 [deployment]
 build = ["npm", "run", "build"]
