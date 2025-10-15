@@ -11,9 +11,9 @@ import coachMartell from './coaches/coach-martell.jpg';
 import coachAnsel from './coaches/coach-ansel.jpg';
 
 // Progress Images
-import progress1 from './progress/progress-1.jpg';
-import progress2 from './progress/progress-2.jpg';
-import progress3 from './progress/progress-3.jpg';
+import progress1 from './progress/progress-1.png';
+import progress2 from './progress/progress-2.png';
+import progress3 from './progress/progress-3.png';
 
 // Icons
 import nutritionBg from './icons/nutrition-bg.png';
