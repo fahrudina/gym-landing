@@ -29,6 +29,12 @@ const Logo = styled.div`
   font-weight: ${({ theme }) => theme.typography.fontWeight.bold};
   color: ${({ theme }) => theme.colors.primary};
   margin-bottom: ${({ theme }) => theme.spacing.lg};
+  
+  .star {
+    font-size: 0.6em;
+    display: inline-block;
+    vertical-align: middle;
+  }
 `;
 
 const FooterDescription = styled.p`
@@ -149,10 +155,12 @@ export const Footer: React.FC = () => {
           <FooterSection>
             <Logo>
               <FaDumbbell />
-              <span>S⭐R⭐Y FITNESS</span>
+              <span>
+                S<span className="star">⭐</span>R<span className="star">⭐</span>Y FITNESS
+              </span>
             </Logo>
             <FooterDescription>
-              Transform your body and mind with S⭐R⭐Y FITNESS state-of-the-art facilities, 
+              Transform your body and mind with S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y FITNESS state-of-the-art facilities, 
               expert trainers, and supportive community. Your fitness journey starts here.
             </FooterDescription>
             <SocialLinks>
@@ -207,7 +215,7 @@ export const Footer: React.FC = () => {
 
         <FooterBottom>
           <Copyright>
-            © 2025 S 🌟 R 🌟 Y FITNESS. All rights reserved.
+            © 2025 S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y FITNESS. All rights reserved.
           </Copyright>
           <FooterBottomLinks>
             <FooterLink href="#">Privacy Policy</FooterLink>

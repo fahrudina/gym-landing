@@ -122,4 +122,15 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${({ theme }) => theme.colors.primary};
     color: ${({ theme }) => theme.colors.white};
   }
+
+  /* S⭐R⭐Y Branding Styles */
+  .srary-brand {
+    font-weight: ${({ theme }) => theme.typography.fontWeight.bold};
+    
+    .star {
+      font-size: 0.6em;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
 `;

@@ -48,8 +48,10 @@ export default function DesktopGymLanding() {
             <div className="h-[60px] w-[60px] md:h-[78px] md:w-[78px] mr-2 md:mr-4">
               <img alt="Logo S⭐R⭐Y Fitness Center - Gym Terbaik Jakarta" className="w-full h-full object-cover" src={gymLogo} />
             </div>
-            <div className="font-monument text-primary text-[18px] md:text-[24px] leading-tight">
-              <div>S⭐R⭐Y</div>
+            <div className="font-monument text-primary text-[18px] md:text-[24px] leading-tight font-bold">
+              <div>
+                S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y
+              </div>
               <div>FITNESS</div>
             </div>
           </div>
@@ -177,12 +179,12 @@ export default function DesktopGymLanding() {
           <div className="flex-1 mb-8 md:mb-0">
             <div className="text-center mb-8">
               <p className="font-poppins font-semibold text-white text-[18px] md:text-[24px] mb-2">Tentang</p>
-              <h2 className="font-monument text-white text-[24px] md:text-[40px] tracking-[2px] md:tracking-[4px]">
-                S⭐R⭐Y GYM UNTUK PRIA & WANITA
+              <h2 className="font-monument text-white text-[24px] md:text-[40px] tracking-[2px] md:tracking-[4px] font-bold">
+                S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y GYM UNTUK PRIA & WANITA
               </h2>
             </div>
             <p className="font-poppins font-bold text-accent text-[16px] md:text-[20px] leading-relaxed tracking-[1px] max-w-[644px] text-center md:text-left">
-              S⭐R⭐Y Gym Fitness Center menyediakan pelatihan dan conditioning yang tepat untuk member yang ingin memperbaiki dan mentransformasi tubuh mereka dengan Program yang disesuaikan dengan komposisi tubuh.
+              S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y Gym Fitness Center menyediakan pelatihan dan conditioning yang tepat untuk member yang ingin memperbaiki dan mentransformasi tubuh mereka dengan Program yang disesuaikan dengan komposisi tubuh.
             </p>
           </div>
           
