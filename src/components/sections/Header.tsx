@@ -37,6 +37,13 @@ const Logo = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    font-weight: ${({ theme }) => theme.typography.fontWeight.bold};
+    
+    .star {
+      font-size: 0.6em;
+      display: inline-block;
+      vertical-align: middle;
+    }
   }
 `;
 
@@ -153,7 +160,9 @@ export const Header: React.FC = () => {
         <Nav>
           <Logo>
             <FaDumbbell />
-            <span className="brand-text">S⭐R⭐Y FITNESS</span>
+            <span className="brand-text">
+              S<span className="star">⭐</span>R<span className="star">⭐</span>Y FITNESS
+            </span>
           </Logo>
 
           <NavLinks>

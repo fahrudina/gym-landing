@@ -141,9 +141,15 @@ const SraryLogo = styled.div`
   
   .logo-main {
     font-size: 3rem;
-    font-weight: ${({ theme }) => theme.typography.fontWeight.extrabold};
+    font-weight: ${({ theme }) => theme.typography.fontWeight.bold};
     font-family: ${({ theme }) => theme.typography.fontFamily.secondary};
     margin-bottom: ${({ theme }) => theme.spacing.sm};
+    
+    .star {
+      font-size: 0.6em;
+      display: inline-block;
+      vertical-align: middle;
+    }
     
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
       font-size: 2.5rem;
@@ -213,7 +219,9 @@ export const Hero: React.FC = () => {
           >
             <LogoContainer>
               <SraryLogo>
-                <div className="logo-main">S⭐R⭐Y</div>
+                <div className="logo-main">
+                  S<span className="star">⭐</span>R<span className="star">⭐</span>Y
+                </div>
                 <div className="logo-sub">FITNESS CENTRE</div>
               </SraryLogo>
             </LogoContainer>
