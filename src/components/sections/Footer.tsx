@@ -31,9 +31,10 @@ const Logo = styled.div`
   margin-bottom: ${({ theme }) => theme.spacing.lg};
   
   .star {
-    font-size: 0.6em;
+    font-size: 0.45em;
     display: inline-block;
     vertical-align: middle;
+    margin: 0 -0.05em;
   }
 `;
 
@@ -160,7 +161,7 @@ export const Footer: React.FC = () => {
               </span>
             </Logo>
             <FooterDescription>
-              Transform your body and mind with S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y FITNESS state-of-the-art facilities, 
+              Transform your body and mind with S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y FITNESS state-of-the-art facilities, 
               expert trainers, and supportive community. Your fitness journey starts here.
             </FooterDescription>
             <SocialLinks>
@@ -215,7 +216,7 @@ export const Footer: React.FC = () => {
 
         <FooterBottom>
           <Copyright>
-            © 2025 S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y FITNESS. All rights reserved.
+            © 2025 S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y FITNESS. All rights reserved.
           </Copyright>
           <FooterBottomLinks>
             <FooterLink href="#">Privacy Policy</FooterLink>

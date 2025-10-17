@@ -84,7 +84,7 @@ export const About: React.FC = () => {
             >
               ABOUT<br />
               <span style={{ color: '#4A5FBF', fontWeight: 'bold' }}>
-                S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y GYM<br />
+                S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y GYM<br />
                 FOR MAN & WOMAN
               </span>
             </AboutTitle>
@@ -96,7 +96,7 @@ export const About: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y Gym Fitness Center provides premium training 
+              S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y Gym Fitness Center provides premium training 
               and conditioning for members who want to improve and 
               transform their body with programs depend on the body 
               template of each person program and training!

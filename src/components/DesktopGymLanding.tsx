@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useBreakpoint } from '../hooks/useWindowSize';
+// import { useBreakpoint } from '../hooks/useWindowSize';
 import { WhatsAppButton } from './common';
 
 // Import local assets
@@ -7,23 +7,23 @@ import {
   heroBackground,
   gymLogo,
   gymInterior,
-  locationMap,
+  // locationMap,
   visitBackground,
-  coachJohn,
-  coachMartell,
-  coachAnsel,
+  // coachJohn,
+  // coachMartell,
+  // coachAnsel,
   progress1,
   progress2,
   progress3,
-  nutritionBg,
+  // nutritionBg,
   nutritionIcon,
-  crownIcon,
-  chessKing,
-  chessBishop,
-  chessKnight,
-  chessPawn,
-  facebookIcon,
-  messengerIcon,
+  // crownIcon,
+  // chessKing,
+  // chessBishop,
+  // chessKnight,
+  // chessPawn,
+  // facebookIcon,
+  // messengerIcon,
   instagramIcon,
   vector1,
   vector2,
@@ -31,7 +31,7 @@ import {
 } from '../assets/images';
 
 export default function DesktopGymLanding() {
-  const { isMobile } = useBreakpoint();
+  // const { isMobile } = useBreakpoint();
   const [formData, setFormData] = useState({
     nama: '',
     phoneNumber: ''
@@ -74,7 +74,7 @@ export default function DesktopGymLanding() {
             </div>
             <div className="font-monument text-primary text-[18px] md:text-[24px] leading-tight font-bold">
               <div>
-                S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y
+                S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y
               </div>
               <div>FITNESS</div>
             </div>
@@ -145,11 +145,11 @@ export default function DesktopGymLanding() {
             <div className="text-center mb-8">
               <p className="font-poppins font-semibold text-white text-[18px] md:text-[24px] mb-2">Tentang</p>
               <h2 className="font-monument text-white text-[24px] md:text-[40px] tracking-[2px] md:tracking-[4px] font-bold">
-                S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y GYM UNTUK PRIA & WANITA
+                S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y GYM UNTUK PRIA & WANITA
               </h2>
             </div>
             <p className="font-poppins font-bold text-accent text-[16px] md:text-[20px] leading-relaxed tracking-[1px] max-w-[644px] text-center md:text-left">
-              S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y (SURYA Fitnes) adalah tempat GYM yg nyaman, lokasi strategis, dengan konsep yang tepat untuk member yang ingin memperbaiki dan mentransformasi penampilan dengan Program yang disesuaikan dengan komposisi tubuh.
+              S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y (SURYA Fitnes) adalah tempat GYM yg nyaman, lokasi strategis, dengan konsep yang tepat untuk member yang ingin memperbaiki dan mentransformasi penampilan dengan Program yang disesuaikan dengan komposisi tubuh.
             </p>
           </div>
           
@@ -565,7 +565,7 @@ export default function DesktopGymLanding() {
             </div>
             <div className="font-monument text-primary text-[16px] md:text-[20px] leading-tight font-bold">
               <div>
-                S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y
+                S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y
               </div>
               <div>FITNESS</div>
             </div>
@@ -574,7 +574,7 @@ export default function DesktopGymLanding() {
             Jl. Dr. Ratna No.117, Jatikramat, Bekasi
           </p>
           <p className="font-poppins text-[#666] text-[14px] md:text-[16px]">
-            © 2025 S<span style={{ fontSize: '0.6em' }}>⭐</span>R<span style={{ fontSize: '0.6em' }}>⭐</span>Y Fitness Center. All rights reserved.
+            © 2025 S<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>R<span style={{ fontSize: '0.45em', verticalAlign: 'middle', display: 'inline-block', margin: '0 -0.05em' }}>⭐</span>Y Fitness Center. All rights reserved.
           </p>
         </div>
       </footer>

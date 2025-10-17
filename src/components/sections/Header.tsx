@@ -40,9 +40,10 @@ const Logo = styled.div`
     font-weight: ${({ theme }) => theme.typography.fontWeight.bold};
     
     .star {
-      font-size: 0.6em;
+      font-size: 0.45em;
       display: inline-block;
       vertical-align: middle;
+      margin: 0 -0.05em;
     }
   }
 `;
