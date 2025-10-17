@@ -305,6 +305,7 @@ export default function DesktopGymLanding() {
               {/* 3 Month Member */}
               <div className="bg-gradient-to-r from-[#1A1B3F] to-[#0F1729] rounded-[16px] border-[2px] border-white shadow-lg p-4">
                 <div className="text-center">
+                  <p className="font-monument text-white text-[24px] leading-none mb-2">480K</p>
                   <p className="font-monument text-white text-[20px] leading-tight mb-2">Member 3 Bulan</p>
                   <p className="font-poppins font-bold text-[#FFD700] text-[14px]">(FREE 1 BULAN)</p>
                 </div>
@@ -327,6 +328,7 @@ export default function DesktopGymLanding() {
 
               {/* 3 Month Member */}
               <div className="bg-gradient-to-r from-[#1A1B3F] to-[#0F1729] w-[220px] h-[160px] rounded-[20px] border-[3px] border-white shadow-lg p-6 flex flex-col items-center justify-center">
+                <p className="font-monument text-white text-[24px] leading-none mb-2">480K</p>
                 <p className="font-monument text-white text-[24px] leading-tight mb-2 text-center">Member 3 Bulan</p>
                 <p className="font-poppins font-bold text-[#FFD700] text-[16px] text-center">(FREE 1 BULAN)</p>
               </div>
@@ -363,6 +365,7 @@ export default function DesktopGymLanding() {
               {/* 3 Month Student */}
               <div className="bg-gradient-to-r from-[#2D1B7A] to-[#1A1B3F] rounded-[16px] border-[2px] border-white shadow-lg p-4">
                 <div className="text-center">
+                  <p className="font-monument text-white text-[24px] leading-none mb-2">450K</p>
                   <p className="font-monument text-white text-[18px] leading-tight mb-2">Member Pelajar 3 Bulan</p>
                   <p className="font-poppins font-bold text-[#FFD700] text-[14px]">(FREE 1 BULAN)</p>
                 </div>
@@ -385,6 +388,7 @@ export default function DesktopGymLanding() {
 
               {/* 3 Month Student */}
               <div className="bg-gradient-to-r from-[#2D1B7A] to-[#1A1B3F] w-[220px] h-[160px] rounded-[20px] border-[3px] border-white shadow-lg p-6 flex flex-col items-center justify-center">
+                <p className="font-monument text-white text-[36px] leading-none mb-3">450K</p>
                 <p className="font-monument text-white text-[20px] leading-tight mb-2 text-center">Member Pelajar<br />3 Bulan</p>
                 <p className="font-poppins font-bold text-[#FFD700] text-[16px] text-center">(FREE 1 BULAN)</p>
               </div>
