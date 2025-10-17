@@ -146,9 +146,10 @@ const SraryLogo = styled.div`
     margin-bottom: ${({ theme }) => theme.spacing.sm};
     
     .star {
-      font-size: 0.6em;
+      font-size: 0.45em;
       display: inline-block;
       vertical-align: middle;
+      margin: 0 -0.05em;
     }
     
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
