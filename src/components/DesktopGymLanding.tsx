@@ -588,7 +588,7 @@ export default function DesktopGymLanding() {
                   <div className="space-y-2">
                     <div className="flex items-center space-x-3">
                       <a 
-                        href="https://wa.me/6281318443265" 
+                        href={`https://wa.me/${WHATSAPP_NUMBER}`}
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2 hover:scale-105 transition-transform duration-200"
