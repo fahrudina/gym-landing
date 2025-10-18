@@ -30,6 +30,10 @@ import {
   vector3,
 } from '../assets/images';
 
+// Constants
+const WHATSAPP_NUMBER = '6281318443265';
+const PROMO_EXPIRY_DATE = '31 Desember';
+
 export default function DesktopGymLanding() {
   // const { isMobile } = useBreakpoint();
   const [formData, setFormData] = useState({
@@ -60,6 +64,12 @@ export default function DesktopGymLanding() {
       nama: '',
       phoneNumber: ''
     });
+  };
+
+  const handlePromoWhatsApp = (packageType: 'SINGLE' | 'COUPLE', price: string) => {
+    const message = `Halo! Saya tertarik dengan PROMO PERSONAL TRAINER - Paket ${packageType} (${price}). Bisa tolong berikan informasi lebih lanjut?`;
+    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
   };
 
   return (
@@ -401,7 +411,7 @@ export default function DesktopGymLanding() {
       <section className="bg-gradient-to-br from-primary via-[#2b2b2b] to-black py-8 md:py-16 px-4 md:px-16 relative overflow-hidden">
         {/* Promo Badge */}
         <div className="absolute top-4 right-4 md:top-8 md:right-8 z-20">
-          <div className="bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full shadow-lg transform rotate-12 animate-pulse">
+          <div className="bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full shadow-lg transform rotate-12 motion-safe:animate-pulse">
             <p className="font-monument text-[12px] md:text-[16px] font-bold tracking-wider">PROMO!</p>
           </div>
         </div>
@@ -419,7 +429,7 @@ export default function DesktopGymLanding() {
             {/* Expiry Badge */}
             <div className="inline-block mt-4 md:mt-6 bg-yellow-400 text-primary px-4 py-2 md:px-6 md:py-3 rounded-full shadow-lg">
               <p className="font-monument text-[14px] md:text-[18px] font-bold tracking-[1px]">
-                ⏰ BERLAKU SAMPAI 31 DESEMBER
+                ⏰ BERLAKU SAMPAI {PROMO_EXPIRY_DATE.toUpperCase()}
               </p>
             </div>
           </div>
@@ -461,11 +471,7 @@ export default function DesktopGymLanding() {
                 </div>
 
                 <button 
-                  onClick={() => {
-                    const message = `Halo! Saya tertarik dengan PROMO PERSONAL TRAINER - Paket SINGLE (Rp900.000). Bisa tolong berikan informasi lebih lanjut?`;
-                    const whatsappUrl = `https://wa.me/6281318443265?text=${encodeURIComponent(message)}`;
-                    window.open(whatsappUrl, '_blank');
-                  }}
+                  onClick={() => handlePromoWhatsApp('SINGLE', 'Rp900.000')}
                   className="bg-accent text-primary px-6 py-3 rounded-full font-poppins font-bold text-[16px] md:text-[18px] hover:bg-yellow-300 transition-colors w-full"
                 >
                   Daftar Sekarang
@@ -515,11 +521,7 @@ export default function DesktopGymLanding() {
                 </div>
 
                 <button 
-                  onClick={() => {
-                    const message = `Halo! Saya tertarik dengan PROMO PERSONAL TRAINER - Paket COUPLE (Rp1.500.000). Bisa tolong berikan informasi lebih lanjut?`;
-                    const whatsappUrl = `https://wa.me/6281318443265?text=${encodeURIComponent(message)}`;
-                    window.open(whatsappUrl, '_blank');
-                  }}
+                  onClick={() => handlePromoWhatsApp('COUPLE', 'Rp1.500.000')}
                   className="bg-accent text-primary px-6 py-3 rounded-full font-poppins font-bold text-[16px] md:text-[18px] hover:bg-yellow-300 transition-colors w-full"
                 >
                   Daftar Sekarang
