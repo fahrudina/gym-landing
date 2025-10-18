@@ -55,7 +55,7 @@ export default function DesktopGymLanding() {
     }
 
     const message = `Halo kak saya mau daftar surya fitness\nnama: ${formData.nama}\nnomor telephone: ${formData.phoneNumber}`;
-    const whatsappUrl = `https://wa.me/6281318443265?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -130,7 +130,7 @@ export default function DesktopGymLanding() {
             <button 
               onClick={() => {
                 const message = `Halo kak saya tertarik dengan S⭐R⭐Y Fitness Center dan ingin bergabung. Bisakah Anda memberikan informasi lebih lanjut tentang membership dan fasilitas yang tersedia?`;
-                const whatsappUrl = `https://wa.me/6281318443265?text=${encodeURIComponent(message)}`;
+                const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
                 window.open(whatsappUrl, '_blank');
               }}
               className="bg-cream px-4 py-2 md:px-6 md:py-3 text-gray font-bold text-[16px] md:text-[20px] rounded-full mt-4 md:mt-8 hover:bg-yellow-100 transition-colors"
