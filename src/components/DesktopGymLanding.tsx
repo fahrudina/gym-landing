@@ -567,7 +567,7 @@ export default function DesktopGymLanding() {
             {/* Google Maps */}
             <div className="w-full md:w-[390px] h-[250px] md:h-[532px] rounded-[20px] overflow-hidden mb-6 md:mb-0 md:mr-8">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.899864157596!2d106.9517666!3d-6.276894700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698daf369fe30f%3A0x2071deee7de2ee43!2sRAJAne%20WARUNG!5e0!3m2!1sen!2sid!4v1760538943731!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8999235427614!2d106.9517655!3d-6.2768869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d93c43c79e3%3A0xf42e144073544418!2sSRY%20FITNES%20(Surya%20Fitnes)!5e0!3m2!1sen!2sid!4v1760771436435!5m2!1sen!2sid"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
