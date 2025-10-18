@@ -397,6 +397,158 @@ export default function DesktopGymLanding() {
         </div>
       </section>
 
+      {/* Personal Trainer Promo Section */}
+      <section className="bg-gradient-to-br from-primary via-[#2b2b2b] to-black py-8 md:py-16 px-4 md:px-16 relative overflow-hidden">
+        {/* Promo Badge */}
+        <div className="absolute top-4 right-4 md:top-8 md:right-8 z-20">
+          <div className="bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full shadow-lg transform rotate-12 animate-pulse">
+            <p className="font-monument text-[12px] md:text-[16px] font-bold tracking-wider">PROMO!</p>
+          </div>
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto">
+          {/* Section Header */}
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="font-monument text-accent text-[28px] md:text-[48px] tracking-[2.8px] md:tracking-[4.8px] mb-3 md:mb-4">
+              PROMO PERSONAL TRAINER
+            </h2>
+            <p className="font-poppins font-semibold text-white text-[16px] md:text-[20px] tracking-[1px] italic">
+              "Wujudkan tubuh impianmu dengan bimbingan profesional"
+            </p>
+            
+            {/* Expiry Badge */}
+            <div className="inline-block mt-4 md:mt-6 bg-yellow-400 text-primary px-4 py-2 md:px-6 md:py-3 rounded-full shadow-lg">
+              <p className="font-monument text-[14px] md:text-[18px] font-bold tracking-[1px]">
+                ⏰ BERLAKU SAMPAI 31 DESEMBER
+              </p>
+            </div>
+          </div>
+
+          {/* Promo Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8 md:mb-12">
+            {/* Single Package */}
+            <div className="bg-gradient-to-br from-[#4A5FBF] to-[#2D1B7A] rounded-[24px] border-4 border-accent shadow-2xl p-6 md:p-8 transform hover:scale-105 transition-transform duration-300">
+              <div className="text-center">
+                <div className="bg-accent text-primary px-4 py-2 rounded-full inline-block mb-4 md:mb-6">
+                  <p className="font-monument text-[16px] md:text-[20px] font-bold">SINGLE</p>
+                </div>
+                
+                <div className="mb-4 md:mb-6">
+                  <p className="font-monument text-white text-[36px] md:text-[56px] leading-none mb-2">
+                    900K
+                  </p>
+                  <div className="h-1 w-24 bg-accent mx-auto mb-4"></div>
+                </div>
+
+                <div className="bg-white/10 rounded-[16px] p-4 md:p-6 mb-4 md:mb-6">
+                  <p className="font-poppins font-bold text-white text-[16px] md:text-[20px] mb-3">
+                    Paket Termasuk:
+                  </p>
+                  <ul className="space-y-2 text-left">
+                    <li className="font-poppins text-white text-[14px] md:text-[18px] flex items-start">
+                      <span className="text-accent mr-2">✓</span>
+                      <span>10x pertemuan</span>
+                    </li>
+                    <li className="font-poppins text-accent text-[14px] md:text-[18px] flex items-start font-bold">
+                      <span className="mr-2">🎁</span>
+                      <span>FREE 2x pertemuan</span>
+                    </li>
+                    <li className="font-poppins text-white text-[14px] md:text-[18px] flex items-start">
+                      <span className="text-accent mr-2">📅</span>
+                      <span>Max 2 bulan</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <button 
+                  onClick={() => {
+                    const message = `Halo! Saya tertarik dengan PROMO PERSONAL TRAINER - Paket SINGLE (Rp900.000). Bisa tolong berikan informasi lebih lanjut?`;
+                    const whatsappUrl = `https://wa.me/6281318443265?text=${encodeURIComponent(message)}`;
+                    window.open(whatsappUrl, '_blank');
+                  }}
+                  className="bg-accent text-primary px-6 py-3 rounded-full font-poppins font-bold text-[16px] md:text-[18px] hover:bg-yellow-300 transition-colors w-full"
+                >
+                  Daftar Sekarang
+                </button>
+              </div>
+            </div>
+
+            {/* Couple Package */}
+            <div className="bg-gradient-to-br from-[#2D1B7A] to-[#1A1B3F] rounded-[24px] border-4 border-accent shadow-2xl p-6 md:p-8 transform hover:scale-105 transition-transform duration-300 relative">
+              {/* Popular Badge */}
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                <div className="bg-accent text-primary px-4 py-1 rounded-full shadow-lg">
+                  <p className="font-monument text-[12px] md:text-[14px] font-bold">HEMAT!</p>
+                </div>
+              </div>
+
+              <div className="text-center">
+                <div className="bg-accent text-primary px-4 py-2 rounded-full inline-block mb-4 md:mb-6">
+                  <p className="font-monument text-[16px] md:text-[20px] font-bold">COUPLE</p>
+                </div>
+                
+                <div className="mb-4 md:mb-6">
+                  <p className="font-monument text-white text-[36px] md:text-[56px] leading-none mb-2">
+                    1.5JT
+                  </p>
+                  <div className="h-1 w-24 bg-accent mx-auto mb-4"></div>
+                </div>
+
+                <div className="bg-white/10 rounded-[16px] p-4 md:p-6 mb-4 md:mb-6">
+                  <p className="font-poppins font-bold text-white text-[16px] md:text-[20px] mb-3">
+                    Paket Termasuk:
+                  </p>
+                  <ul className="space-y-2 text-left">
+                    <li className="font-poppins text-white text-[14px] md:text-[18px] flex items-start">
+                      <span className="text-accent mr-2">✓</span>
+                      <span>10x pertemuan (berdua)</span>
+                    </li>
+                    <li className="font-poppins text-accent text-[14px] md:text-[18px] flex items-start font-bold">
+                      <span className="mr-2">🎁</span>
+                      <span>FREE 2x pertemuan</span>
+                    </li>
+                    <li className="font-poppins text-white text-[14px] md:text-[18px] flex items-start">
+                      <span className="text-accent mr-2">📅</span>
+                      <span>Max 2 bulan</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <button 
+                  onClick={() => {
+                    const message = `Halo! Saya tertarik dengan PROMO PERSONAL TRAINER - Paket COUPLE (Rp1.500.000). Bisa tolong berikan informasi lebih lanjut?`;
+                    const whatsappUrl = `https://wa.me/6281318443265?text=${encodeURIComponent(message)}`;
+                    window.open(whatsappUrl, '_blank');
+                  }}
+                  className="bg-accent text-primary px-6 py-3 rounded-full font-poppins font-bold text-[16px] md:text-[18px] hover:bg-yellow-300 transition-colors w-full"
+                >
+                  Daftar Sekarang
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Important Note */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-[20px] border-2 border-accent/30 p-4 md:p-6 max-w-3xl mx-auto">
+            <div className="flex items-start space-x-3 md:space-x-4">
+              <div className="flex-shrink-0 mt-1">
+                <div className="w-6 h-6 md:w-8 md:h-8 bg-accent rounded-full flex items-center justify-center">
+                  <span className="text-primary font-bold text-[14px] md:text-[18px]">!</span>
+                </div>
+              </div>
+              <div className="flex-1">
+                <p className="font-poppins font-bold text-accent text-[14px] md:text-[18px] mb-2">
+                  Catatan Penting:
+                </p>
+                <p className="font-poppins text-white text-[14px] md:text-[16px] leading-relaxed">
+                  Harga di atas belum termasuk membership bulanan sebesar <span className="font-bold text-accent">Rp160.000/bulan</span>. Promo berlaku untuk pendaftaran baru dan tidak dapat digabungkan dengan promo lainnya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Visit Our Gym Section */}
       <section className="relative bg-white/50 py-8 md:py-16 px-4 md:px-16">
         <div className="absolute inset-0">
