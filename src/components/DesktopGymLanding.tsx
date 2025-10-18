@@ -32,6 +32,8 @@ import {
 
 // Constants
 const WHATSAPP_NUMBER = '6281318443265';
+const WHATSAPP_NUMBER_2 = '6281319144078';
+const WHATSAPP_FLOATING = '+6282111701599';
 const PROMO_EXPIRY_DATE = '31 Desember';
 
 export default function DesktopGymLanding() {
@@ -602,7 +604,7 @@ export default function DesktopGymLanding() {
                     </div>
                     <div className="flex items-center space-x-3">
                       <a 
-                        href="https://wa.me/6281319144078" 
+                        href={`https://wa.me/${WHATSAPP_NUMBER_2}`}
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2 hover:scale-105 transition-transform duration-200"
@@ -739,7 +741,7 @@ export default function DesktopGymLanding() {
 
       {/* Floating WhatsApp Button */}
       <WhatsAppButton 
-        phoneNumber="+6282111701599"
+        phoneNumber={WHATSAPP_FLOATING}
         message="Halo! Saya tertarik dengan program di S⭐R⭐Y Fitness Center. Bisakah Anda memberikan informasi lebih lanjut tentang membership dan fasilitas yang tersedia?"
         tooltipText="Chat dengan kami di WhatsApp"
       />
