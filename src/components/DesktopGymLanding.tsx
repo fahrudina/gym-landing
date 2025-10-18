@@ -31,9 +31,9 @@ import {
 } from '../assets/images';
 
 // Constants
-const WHATSAPP_NUMBER = '6281318443265';
+const WHATSAPP_NUMBER = '628131844326';
 const WHATSAPP_NUMBER_2 = '6281319144078';
-const WHATSAPP_FLOATING = '+6282111701599';
+const WHATSAPP_FLOATING = '628131844326';
 const PROMO_EXPIRY_DATE = '31 Desember';
 
 export default function DesktopGymLanding() {
