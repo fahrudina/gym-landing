@@ -1,3 +1,28 @@
 # https://www.robotstxt.org/robotstxt.html
+# SRY Fitness Center - SEO Configuration
+
+# Allow all search engines to crawl
 User-agent: *
 Disallow:
+Allow: /
+
+# Specific rules for Google
+User-agent: Googlebot
+Disallow:
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Disallow:
+Allow: /
+
+# Specific rules for Yandex
+User-agent: Yandex
+Disallow:
+Allow: /
+
+# Sitemap reference for all search engines
+Sitemap: https://sry-fitness.replit.app/sitemap.xml
+
+# Crawl delay for respectful crawling (in seconds)
+Crawl-delay: 1
